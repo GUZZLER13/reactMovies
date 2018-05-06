@@ -132,7 +132,7 @@ class App extends Component {
     render() {
         const renderMovieList = () => {
             if (!this.state.movies >= 5) {
-                return <div>Chargement</div>;
+                return <div>Chargement...</div>;
             }
             return (
                 <MovieList
@@ -152,7 +152,7 @@ class App extends Component {
                         />
                     </div>
                 );
-            else return <div>Pas de donnée</div>;
+            else return <div>Chargement...</div>;
         };
         return (
             <div>
