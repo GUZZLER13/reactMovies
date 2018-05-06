@@ -1,6 +1,7 @@
 body {
     color: ghostwhite;
     background-image: url(../img/fond.png);
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial;
 }
 
 .search_bar {
@@ -27,5 +28,5 @@ li {
 }
 
 h5 {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }

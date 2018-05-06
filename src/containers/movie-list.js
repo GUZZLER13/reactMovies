@@ -4,7 +4,7 @@ import MovieListItem from "../components/movie-list-item";
 const MovieList = props => {
     return (
         <div>
-            <h3 className="title_list_item_title">Dans le même style :</h3>
+            <h3 className="title_list_item_title">Quelques suggestions :</h3>
             <ul className="list-group">
                 {props.movies.map(movie => {
                     return (

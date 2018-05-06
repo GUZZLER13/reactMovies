@@ -9,7 +9,7 @@ const MovieListItem = props => {
                     <div className="media-left">
                         <img
                             className="media-object img-rounded"
-                            width="80px"
+                            width="85rem"
                             height="auto"
                             src={`${IMAGE_BASE_URL}${props.movie.poster_path}`}
                             alt="..."
