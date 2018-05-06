@@ -6,7 +6,7 @@ const MovieVideo = ({ videoId }) => {
         <div className="embed-responsive embed-responsive-16by9">
             <iframe
                 className="embed-responsive-item"
-                src={`${BASE_URL}${videoId}`}
+                src={`${BASE_URL}${videoId}?fs=1&autoplay=1`}
             />
         </div>
     );
